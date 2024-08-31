@@ -19,7 +19,7 @@ const App = () => {
   //   label: `Dataset ${i + 1}`
   // }));
 
-  const bucketUrl = "https://syntheticdatamobility.s3.amazonaws.com/synthetic_data_";
+  const bucketUrl = "https://syntheticdatamobility.s3.us-east-2.amazonaws.com/synthetic_data_";
 
   // Options for react-select with S3 URLs
   const options = Array.from({ length: 20 }, (_, i) => ({
