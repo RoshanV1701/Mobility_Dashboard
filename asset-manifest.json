@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mobility-Dashboard-Prototype/static/css/main.e6c13ad2.css",
-    "main.js": "/Mobility-Dashboard-Prototype/static/js/main.ee1a799c.js",
-    "static/js/453.b39cee9c.chunk.js": "/Mobility-Dashboard-Prototype/static/js/453.b39cee9c.chunk.js",
-    "index.html": "/Mobility-Dashboard-Prototype/index.html",
-    "main.e6c13ad2.css.map": "/Mobility-Dashboard-Prototype/static/css/main.e6c13ad2.css.map",
-    "main.ee1a799c.js.map": "/Mobility-Dashboard-Prototype/static/js/main.ee1a799c.js.map",
-    "453.b39cee9c.chunk.js.map": "/Mobility-Dashboard-Prototype/static/js/453.b39cee9c.chunk.js.map"
+    "main.css": "/mobility-dashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/mobility-dashboard/static/js/main.4b29f61f.js",
+    "static/js/453.b39cee9c.chunk.js": "/mobility-dashboard/static/js/453.b39cee9c.chunk.js",
+    "index.html": "/mobility-dashboard/index.html",
+    "main.e6c13ad2.css.map": "/mobility-dashboard/static/css/main.e6c13ad2.css.map",
+    "main.4b29f61f.js.map": "/mobility-dashboard/static/js/main.4b29f61f.js.map",
+    "453.b39cee9c.chunk.js.map": "/mobility-dashboard/static/js/453.b39cee9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ee1a799c.js"
+    "static/js/main.4b29f61f.js"
   ]
 }
