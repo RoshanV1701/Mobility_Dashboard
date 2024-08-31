@@ -13,11 +13,15 @@ const App = () => {
   const [chartData, setChartData] = useState({});
   const [loading, setLoading] = useState(false);  // State to handle loading
 
-  // Options for react-select
-  const options = Array.from({ length: 20 }, (_, i) => ({
-    value: `https://raw.githubusercontent.com/RoshanV1701/Mobility_Dashboard/main/synthetic_data_${i + 1}.csv`,
-    label: `Dataset ${i + 1}`
-  }));
+// Replace the placeholder with your bucket name and ensure the path is correct
+const bucketUrl = "https://syntheticdatamobility.s3.amazonaws.com/synthetic_data_";
+
+// Options for react-select with S3 URLs
+const options = Array.from({ length: 20 }, (_, i) => ({
+  value: `${bucketUrl}${i + 1}.csv`,
+  label: `Dataset ${i + 1}`
+}));
+
 
   useEffect(() => {
     if (selectedDataset) {
